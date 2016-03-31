@@ -15,6 +15,7 @@
 		4A67C2F61C4682650035A4D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A67C2F41C4682650035A4D4 /* LaunchScreen.storyboard */; };
 		4A67C3011C4682650035A4D4 /* Tap_MeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A67C3001C4682650035A4D4 /* Tap_MeTests.m */; };
 		4A67C30C1C4682650035A4D4 /* Tap_MeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A67C30B1C4682650035A4D4 /* Tap_MeUITests.m */; };
+		4A67C31C1C476FF10035A4D4 /* TapMeButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A67C31A1C476FF10035A4D4 /* TapMeButton.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		4A67C3071C4682650035A4D4 /* Tap MeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tap MeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A67C30B1C4682650035A4D4 /* Tap_MeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tap_MeUITests.m; sourceTree = "<group>"; };
 		4A67C30D1C4682650035A4D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A67C31A1C476FF10035A4D4 /* TapMeButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TapMeButton.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 		4A67C2E61C4682650035A4D4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4A67C31A1C476FF10035A4D4 /* TapMeButton.png */,
 				4A67C2E71C4682650035A4D4 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -243,6 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A67C31C1C476FF10035A4D4 /* TapMeButton.png in Resources */,
 				4A67C2F61C4682650035A4D4 /* LaunchScreen.storyboard in Resources */,
 				4A67C2F31C4682650035A4D4 /* Assets.xcassets in Resources */,
 				4A67C2F11C4682650035A4D4 /* Main.storyboard in Resources */,
@@ -498,6 +502,7 @@
 				4A67C3121C4682650035A4D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4A67C3131C4682650035A4D4 /* Build configuration list for PBXNativeTarget "Tap MeTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +511,7 @@
 				4A67C3151C4682650035A4D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4A67C3161C4682650035A4D4 /* Build configuration list for PBXNativeTarget "Tap MeUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +520,7 @@
 				4A67C3181C4682650035A4D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

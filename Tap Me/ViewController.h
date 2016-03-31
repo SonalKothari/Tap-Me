@@ -8,8 +8,22 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController{
 
+IBOutlet UILabel *ScoreLabel;
+IBOutlet UILabel *TimerLabel;
+IBOutlet UILabel *HighScoreLabel;
+}
+
+- (IBAction)TapMeButtonClicked:(id)sender;
 
 @end
+
+NSInteger ScoreCount;
+NSInteger TimerCount;
+NSInteger HighScoreCount;
+NSTimer *Timer;
+NSInteger highscore;
+
+
 
